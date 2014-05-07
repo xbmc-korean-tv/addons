@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.ondemandkorea"
+       name="OnDemandKorea"
+       version="0.0.1"
+       provider-name="xbmc-korean-tv">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.common.plugin.cache" version="2.5.2" />
+    <import addon="script.module.parsedom" version="1.3.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+	     library="default.py">
+	<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">OnDemandKorea Streaming Service</summary>
+    <summary lang="ko">OnDemandKorea.com 비디오 스트리밍 서비스</summary>
+    <description lang="en">Watch Korean tv shows in OnDemandKorea.com.
+    It's required to change settings first before using it.
+    </description>
+    <description lang="ko">OnDemandKorea.com에서 제공하는 한국 영화/드라마등을 볼 수 있습니다. 유료 컨텐츠는 회원으로 가입되어 있어야 사용할 수 있습니다.
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon id="plugin.video.tvbogo.com"
+       name="Tvbogo"
+       version="0.0.1"
+       provider-name="xbmc-korean-tv">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.common.plugin.cache" version="2.5.2" />
+    <import addon="script.module.parsedom" version="1.3.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Tvbogo Streaming Service</summary>
+    <summary lang="ko">티비보고 닷컴 비디오 스트리밍 서비스</summary>
+    <description lang="en">Watch Korean tv shows in tvbogo.com.
+    It's required to change settings first before using it.
+    </description>
+    <description lang="ko">티비보고 닷컴(tvbogo.com)에서 제공하는 한국 영화/드라마등을 볼 수 있습니다. 유료 컨텐츠는 회원으로 가입되어 있어야 사용할 수 있습니다.
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
+</addons>
