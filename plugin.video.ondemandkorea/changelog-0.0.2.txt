@@ -1,0 +1,7 @@
+[B]Version 0.0.2[/B]
+
+- Fix News link 
+
+[B]Version 0.0.1[/B]
+
+- Initial commit 
