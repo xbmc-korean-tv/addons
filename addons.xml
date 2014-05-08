@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.video.ondemandkorea"
        name="OnDemandKorea"
-       version="0.0.1"
+       version="0.0.2"
        provider-name="xbmc-korean-tv">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
