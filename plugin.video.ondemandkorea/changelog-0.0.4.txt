@@ -1,0 +1,8 @@
+[B]Version 0.0.4[/B]
+- Add Support for old episodes
+[B]Version 0.0.3[/B]
+- Add Video quality option
+[B]Version 0.0.2[/B]
+- Fix News link 
+[B]Version 0.0.1[/B]
+- Initial commit 
