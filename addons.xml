@@ -50,4 +50,27 @@
     <platform>all</platform>
   </extension>
 </addon>
+<addon id="plugin.video.live-korean-tv"
+       name="Live Korean TV"
+       version="0.0.1"
+       provider-name="xbmc-korean-tv">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.parsedom" version="1.3.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Live Korean TV Streaming Service</summary>
+    <summary lang="ko">한국 방송국 생방송 스트리밍 서비스</summary>
+    <description lang="en">Watch Live Korean tv. It's required to change settings first before using it.
+    </description>
+    <description lang="ko">한국 방송국에서 무료로 제공하는 생방송을 볼 수 있습니다.
+    </description>
+    <platform>all</platform>
+  </extension>
+</addon>
 </addons>
