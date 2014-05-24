@@ -1,0 +1,10 @@
+[B]Version 0.0.5[/B]
+- Add the channel browse function
+[B]Version 0.0.4[/B]
+- Find the working proxy automaticatlly 
+[B]Version 0.0.3[/B]
+- Add kbs.co.kr support 
+[B]Version 0.0.2[/B]
+- Add iMBC.com support 
+[B]Version 0.0.1[/B]
+- Initial commit 
