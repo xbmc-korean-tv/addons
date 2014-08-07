@@ -1,0 +1,12 @@
+[B]Version 0.0.5[/B]
+- Replace sjc9 server with sjc4
+[B]Version 0.0.5[/B]
+- Replace sjc7 and sjc8 server with sjc2 and sjc3
+[B]Version 0.0.4[/B]
+- Add Support for old episodes
+[B]Version 0.0.3[/B]
+- Add Video quality option
+[B]Version 0.0.2[/B]
+- Fix News link 
+[B]Version 0.0.1[/B]
+- Initial commit 
