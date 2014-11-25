@@ -1,0 +1,24 @@
+[B]Version 0.1.2[/B]
+- Remove SBS
+[B]Version 0.1.1[/B]
+- Set the channel to expire after 1 hour
+[B]Version 0.1.0[/B]
+- Optimize Proxy Finder
+[B]Version 0.0.9[/B]
+- Fix Proxy Lookup URL
+[B]Version 0.0.8[/B]
+- Fix Proxy Finder
+[B]Version 0.0.7[/B]
+- Add EveryOn.TV support
+[B]Version 0.0.6[/B]
+- Store the proxy information to storage
+[B]Version 0.0.5[/B]
+- Add the channel browse function
+[B]Version 0.0.4[/B]
+- Find the working proxy automaticatlly 
+[B]Version 0.0.3[/B]
+- Add kbs.co.kr support 
+[B]Version 0.0.2[/B]
+- Add iMBC.com support 
+[B]Version 0.0.1[/B]
+- Initial commit 
