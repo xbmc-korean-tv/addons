@@ -132,4 +132,48 @@
     <platform>all</platform>
   </extension>
 </addon>
+<addon
+  id="skin.confluence.ktv"
+  version="0.0.1"
+  name="Confluence (KTV)"
+  provider-name="KTV OnAir">
+  <requires>
+    <import addon="xbmc.gui" version="5.3.0"/>
+    <import addon="plugin.video.ktv-onair" />
+    <import addon="plugin.video.live-korean-tv" />
+    <import addon="plugin.video.ondemandkorea" />
+    <import addon="plugin.video.viki" />
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    defaultthemename="textures.xbt"
+    debugging="false"
+    effectslowdown="0.75">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon
+  id="plugin.video.viki"
+  version="1.1.24"
+  name="Viki"
+  provider-name="Dknight">
+  <requires>
+        <import addon="xbmc.python" version="2.1.0" optional="true" />
+                <import addon="script.module.simplejson" />
+                <import addon="script.module.urlresolver"  version="0.0.1"/>
+                <import addon="script.module.t0mm0.common" version="1.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Viki.com</summary>
+    <description>Watch Viki.com Videos</description>
+    <platform>all</platform>
+  </extension>
+</addon>
 </addons>
