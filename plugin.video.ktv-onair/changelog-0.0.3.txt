@@ -1,0 +1,14 @@
+0.0.3
+
+Changes
+- Add YTN, KBS 24 News, Yonhap News, Channel A, MBN, Channel Donga, TV Chosun and Golf channels
+
+0.0.2
+
+Changes
+- Remove SBS Channels
+
+0.0.1
+
+Changes
+- Initial addon version
