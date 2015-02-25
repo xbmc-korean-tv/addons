@@ -203,4 +203,21 @@
                 <source>https://github.com/bromix/plugin.video.youtube</source>
         </extension>
 </addon>
+<addon provider-name="Tronix 2014" version="1.4.3" name="Mash Up" id="plugin.video.movie25">
+<requires>
+<import version="2.1.0" addon="xbmc.python"/>
+<import version="0.0.1" addon="script.module.urlresolver"/>
+<import version="1.1.0" addon="script.module.t0mm0.common"/>
+<import version="1.0.2" addon="script.module.metahandler"/>
+<import addon="script.module.beautifulsoup"/>
+</requires>
+<extension library="default.py" point="xbmc.python.pluginsource">
+<provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+<summary lang="en">Browse Movie25 and many more sources</summary>
+<description lang="en">Browse and play a wide selection of movies from the sites like Movie25.com, watchfreeseres, seriesgate, rlsmx, newmyvidelinks etc. [COLOR red]Mash Up plugin is coded with Google Analytics which can be disabled in addon settings under General Tab.[/COLOR] [COLOR green]Mash Up is Now Officially Ad Free[/COLOR]</description>
+<platform>all</platform>
+</extension>
+</addon>
 </addons>
