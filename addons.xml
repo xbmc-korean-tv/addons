@@ -157,7 +157,7 @@
 </addon>
 <addon
   id="plugin.video.viki"
-  version="1.1.27"
+  version="1.1.30"
   name="Viki"
   provider-name="Dknight">
   <requires>
