@@ -1,0 +1,33 @@
+[B]Version 0.1.1[/B]
+- Quick fix to parse video
+
+[B]Version 0.1.0[/B]
+- Update the login url
+
+[B]Version 0.0.9[/B]
+- Fix the video link parsing logic - change stream( to stream_download(
+
+[B]Version 0.0.8[/B]
+- Update the video link parsing logic
+
+[B]Version 0.0.7[/B]
+- Fix the direct link video link
+
+[B]Version 0.0.6[/B]
+- Fix the title with comma
+
+[B]Version 0.0.5[/B]
+- Fix the video link 
+
+[B]Version 0.0.4[/B]
+
+- Update Download option 
+[B]Version 0.0.3[/B]
+
+- Add Download option 
+[B]Version 0.0.2[/B]
+
+- Add Video quality option 
+[B]Version 0.0.1[/B]
+
+- Initial commit 
