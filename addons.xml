@@ -93,11 +93,12 @@
 </addon>
 <addon
   id="skin.ktv-onair"
-  version="0.0.1"
+  version="0.0.3"
   name="KTV-OnAir"
   provider-name="KTV OnAir">
   <requires>
     <import addon="xbmc.gui" version="5.0.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.2"/>
   </requires>
   <extension
     point="xbmc.gui.skin"
