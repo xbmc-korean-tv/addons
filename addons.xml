@@ -23,14 +23,13 @@
 </addon>
 <addon id="plugin.video.tvbogo.com"
        name="tvbogo"
-       version="0.1.9"
+       version="0.2.0"
        provider-name="Tvbogo">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.common.plugin.cache" version="2.5.2" />
     <import addon="script.module.parsedom" version="1.3.0"/>
     <import addon="script.module.xbmcswift2" version="2.4.0"/>
-    <import addon="script.module.beautifulsoup4" version="4.3.2"/>
   </requires>
   <extension point="xbmc.python.pluginsource"
              library="default.py">
@@ -215,5 +214,44 @@
 <description lang="en">Browse and play a wide selection of movies from the sites like Movie25.com, watchfreeseres, seriesgate, rlsmx, newmyvidelinks etc. [COLOR red]Mash Up plugin is coded with Google Analytics which can be disabled in addon settings under General Tab.[/COLOR] [COLOR green]Mash Up is Now Officially Ad Free[/COLOR]</description>
 <platform>all</platform>
 </extension>
+</addon>
+<addon id="script.module.beautifulsoup4" name="BeautifulSoup4" version="4.3.2" provider-name="Leonard Richardson (leonardr@segfault.org)">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib"/>
+	<extension point="xbmc.addon.metadata">
+		<summary>
+			HTML/XML parser for quick-turnaround applications like screen-scraping
+		</summary>
+		<description>
+			Beautiful Soup parses arbitrarily invalid SGML and provides a variety of methods and Pythonic idioms for iterating and searching the parse tree.
+		</description>
+		<license>BSD</license>
+		<platform>all</platform>
+		<website>http://www.crummy.com/software/BeautifulSoup/</website>
+		<nofanart>true</nofanart>
+		<nochangelog>true</nochangelog>
+		<size>85909</size>
+	</extension>
+</addon>
+<addon id="script.module.beautifulsoup" name="BeautifulSoup" version="3.2.1" provider-name="Leonard Richardson (leonardr@segfault.org)">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib"/>
+	<extension point="xbmc.addon.metadata">
+		<summary>
+			HTML/XML parser for quick-turnaround applications like screen-scraping
+		</summary>
+		<description>
+			Beautiful Soup parses arbitrarily invalid SGML and provides a variety of methods and Pythonic idioms for iterating and searching the parse tree.
+		</description>
+		<license>BSD</license>
+		<platform>all</platform>
+		<nofanart>true</nofanart>
+		<nochangelog>true</nochangelog>
+		<size>30212</size>
+	</extension>
 </addon>
 </addons>
