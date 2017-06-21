@@ -23,7 +23,7 @@
 </addon>
 <addon id="plugin.video.tvbogo.com"
        name="tvbogo"
-       version="0.2.2"
+       version="0.2.3"
        provider-name="Tvbogo">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -73,7 +73,7 @@
 </addon>
 <addon id="plugin.video.ktv-onair"
        name="KTV OnAir"
-       version="0.0.6"
+       version="0.0.7"
        provider-name="KTV OnAir">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>   
