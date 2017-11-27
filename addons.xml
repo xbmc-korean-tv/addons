@@ -152,6 +152,29 @@
   </extension>
 </addon>
 <addon
+  id="skin.ktv-osmc"
+  version="0.0.1"
+  name="KTV (OSMC)"
+  provider-name="KTV OnAir">
+  <requires>
+    <import addon="xbmc.gui" version="5.12.0"/>
+    <import addon="plugin.video.ktv-onair" />
+    <import addon="plugin.video.live-korean-tv" />
+    <import addon="plugin.video.ondemandkorea" />
+    <import addon="plugin.video.viki" />
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    defaultthemename="textures.xbt"
+    debugging="false"
+    effectslowdown="0.75">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+  </extension>
+</addon>
+<addon
   id="plugin.video.viki"
   version="1.1.30"
   name="Viki"
