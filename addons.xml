@@ -23,7 +23,7 @@
 </addon>
 <addon id="plugin.video.tvbogo.com"
        name="tvbogo"
-       version="0.2.7"
+       version="0.2.8"
        provider-name="Tvbogo">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
